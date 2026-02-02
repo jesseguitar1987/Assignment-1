@@ -1,0 +1,184 @@
+<!-- Basic html doctype, head, meta and title tags -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Assignment 1</title>
+    <!-- Minimal CSS styling done in the html so it doesn't need an extra file -->
+    <style>
+
+        /* Global styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* h3 specfic styling to override global styling */
+        h3 {
+            margin: 0 0 10px;
+        }
+
+        /* p styling */
+        p {
+            margin: 0 0 10px;
+        }
+
+        /* General page styling */
+        body {
+            background-color: #D3D3D3;
+            color: #000000;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            padding: 21px;
+        }
+
+        /* Header styling */
+        header {
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 4px;
+            font-size: 2.6rem;
+        }
+
+        header p {
+            color: #666666;
+        }
+
+        /* Styling for the main content */
+        main {
+            background: #F5F5F5;
+            padding: 20px;
+            border-radius: 6px;
+            max-width: 750px;
+            margin: 0 auto;
+        }
+
+        /* Sections */
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            color: #003366;
+            margin-bottom: 8px;
+        }
+
+        /* List styling */
+        ul {
+            margin: 8px 0 0;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        /* Styling for images */
+        img {
+            border-radius: 5px;
+            margin-top: 8px;
+            max-width: 100%;
+        }
+
+        /* Styling for links */
+        a {
+            text-decoration: none;
+            color: #0000EE;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Styling for footer */
+        footer {
+            text-align: center;
+            margin-top: 15px;
+            color: #666666;
+        }
+    </style>
+</head>
+
+<!-- HTML body -->
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Jesse</h1>
+        <p>Assignment 1</p>
+    </header>
+
+    <!-- Main -->
+    <main>
+
+        <!-- Introduction section -->
+        <section>
+            <h2>Here's a few details about myself:</h2>
+            <p>Where I grew up: Lakeland, Florida</p>
+            <p>My major: Digital Media Design</p>
+        </section>
+
+        <!-- Background and xperience section -->
+        <section>
+            <h2>Here's a little bit about my background: </h2>
+            <h3>My experience with web development includes: </h3>
+            <ul>
+                <li>Master's in Computer Information Technology (Mobile and web application development focus)</li>
+                <li>4 years of experience with building backend web services</li>
+                <li>1 year of professional experience as a developer working with SQL, React and C#</li>
+                <li>2 months of professional experience as a full stack developer working with Golang, Vue and DGraph
+                </li>
+                <li>Various courses from Codecademy and completed certificates from freecodecamp</li>
+            </ul>
+            <h3>My experience with software development includes: </h3>
+            <ul>
+                <li>Bachelor's in Computer Science</li>
+                <li>4 years as a professional software developer</li>
+                <li>1 year of professional experience building data analytics software</li>
+                <li>4 years of experience working with the software development life cycle</li>
+            </ul>
+        </section>
+
+        <!-- Why I Took this course section -->
+        <section>
+            <h2>Why I Took This Course</h2>
+            <p>
+                I took this course to familiarize myself with modern web technologies and frameworks such as Vue, APIs,
+                asynchronous JavaScript and how it all works together. I have currently started a new job that uses
+                these technologies and I have no formal training in them, so I am hoping this course can provide me with
+                that.
+            </p>
+        </section>
+
+        <!-- Favorite place section -->
+        <section>
+            <h2>My Favorite Place</h2>
+            <!-- loading="lazy" added here for accessibility-->
+            <img src="https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/bltb54d2bd0900241f5/651196a027287d07b4bf7ffe/0_-_BCC-2023-THINGS-TO-DO-IN-LAS-VEGAS-AT-NIGHT-0.webp?fit=crop&disable=upscale&auto=webp&quality=60&crop=smart"
+                alt="Las Vegas" loading="lazy" />
+        </section>
+
+        <!-- Favorite restaurant section -->
+        <section>
+            <h2>My Favorite Restaurant</h2>
+            <p>
+                <a href="https://www.eaglerestaurant.com/" target="_blank" rel="noopener noreferrer">
+                    The Eagle (Cincinnati) website
+                </a>
+            </p>
+        </section>
+
+    </main>
+    <!-- Additional footer section for polish -->
+    <footer>
+        <p>2026 Jesse Cole</p>
+    </footer>
+</body>
+
+</html>
